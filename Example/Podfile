@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'LAPImageGalleryNode', :exclusive => true do
+  pod "LAPImageGalleryNode", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "LAPImageGalleryNode", :path => "../"
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end
